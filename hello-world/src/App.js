@@ -3,14 +3,16 @@ import React from 'react';
 import './App.css';
 // import Gree from './components/Greet'
 // import Welcome from './components/Welcome'
-import Message from './components/Message'
+// import Message from './components/Message'
+import Parent from './components/Parent';
 
 function App() {
   return (
     <div className="App">
         {/* <Gree/>
         <Welcome/> */}
-        <Message/>
+        {/* <Message/> */}
+        <Parent/>
     </div>
   );
 }
