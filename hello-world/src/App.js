@@ -5,7 +5,8 @@ import './App.css';
 // import Welcome from './components/Welcome'
 // import Message from './components/Message'
 // import Parent from './components/Parent';
-import Conditional from './components/Conditional';
+// import Conditional from './components/Conditional';
+import List from './components/List';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
         <Welcome/> */}
         {/* <Message/> */}
         {/* <Parent/> */}
-        <Conditional/>
+        {/* <Conditional/> */}
+        <List/>
     </div>
   );
 }
